@@ -1,0 +1,62 @@
+.header1{
+    height: 65px;
+    width: 100%;
+    border: 1px solid rgb(220,220,220);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: flex-end;
+}
+.header1 .g-logo{
+    height: 33px;
+    width: 92px;
+    margin: 0 40px 5px 20px;
+}
+.header1 .searchbar{
+    height: 42px;
+    width: 692px;
+    outline: none;
+    border: 1px solid rgb(220,220,220);
+    border-radius: 50px;
+    text-indent: 30px;
+
+}
+.searchbar:hover{
+    -moz-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 4px #ccc;
+}
+.header1 p{
+    position: absolute;
+    font: 16px arial,sans-serif;
+    left: 170px;
+    bottom: -2px;
+}
+.header1 .g-btn{
+    position: absolute;
+    left: 726px;
+    bottom: 10px;
+    height: 26px;
+}
+.header1 .g-app{
+    position: absolute;
+    right: 196px;
+    bottom: -4px;
+    z-index: 100;
+    height: 44px;
+    width: 44px;
+}
+.header1 .g-apphover{
+    position: absolute;
+    right: 198px;
+    bottom: -4px; 
+    height: 44px;
+    width: 44px;
+}
+.g-app:hover{
+    z-index: -1;
+}
+
+
+

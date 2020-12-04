@@ -197,14 +197,13 @@ main .rs{
     height: 1713px;
     position: absolute;
     left: 178px;
-    top: 59px;
+    top: 35px;
     text-align: left;
 }
 
-main .rs .sus{
+main .rs .sus {
     color: #202124;
     cursor: pointer;
-   
 }
 main .rs .sus span{
     cursor: pointer;
@@ -225,7 +224,14 @@ main .rs .mij{
 }
 main .rs .jos{
     line-height: 1.58;
-    margin-top: 3px
+    margin-top: -3px;
+    margin-bottom: 28px;
+    color: #4d5156;
+}
+main .rs .jos em{
+    color: #5f6368;
+    font-weight: bold;
+    font-style: normal;
 }
 main .rs a:hover{
     text-decoration: underline;

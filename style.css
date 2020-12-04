@@ -63,6 +63,7 @@ body{
     visibility: hidden;
 }
 .header1 .btn{
+    line-height: 19px;
     position: absolute;
     right: 38px;
     bottom: 4px;
@@ -227,6 +228,7 @@ main .rs .jos{
     margin-top: -3px;
     margin-bottom: 28px;
     color: #4d5156;
+    cursor: pointer;
 }
 main .rs .jos em{
     color: #5f6368;
@@ -238,5 +240,119 @@ main .rs a:hover{
 }    
 main .rs a:visited {
     color: #609;
-}    
+} 
+main .rs .imglogo{
+    height: 29px;
+    width: 25px;
+} 
+main .rs .hh3{
+    font-size: 20px;
+    line-height: 1.3;
+    position: absolute;
+    left: 34px;
+    top: 632px;
+    font-weight: normal;
+    cursor: pointer;
+}  
+main .rs .hh3:hover{
+    color: #1a0dab;
+}
+main .rs .chestii{
+    display: flex;
+    color: #3c4043;
+    cursor: pointer;
+    font: 400 12px arial,sans-serif;
+    margin-top: 10px;
+}
+main .rs .ch1{
+    border: 1px solid #dadce0;
+    border-radius: 18px;
+    margin-right: 7px;
+    box-sizing: border-box;
+    height: 34px;
+    font-size: 14px;
+    line-height: 34px;
+    padding: 0 8px;
+    text-align: center;
+}
+main .rs .ch2{
+    border: 1px solid #dadce0;
+    border-radius: 18px;
+    margin-right: 7px;
+    box-sizing: border-box;
+    height: 34px;
+    font-size: 14px;
+    line-height: 34px;
+    padding: 0 8px;
+    text-align: center;
+}
+main .rs .ch3{
+    border: 1px solid #dadce0;
+    border-radius: 18px;
+    margin-right: 7px;
+    box-sizing: border-box;
+    height: 34px;
+    font-size: 14px;
+    line-height: 34px;
+    padding: 0 8px;
+    text-align: center;
+}
+main .rs .ch4{
+    border: 1px solid #dadce0;
+    border-radius: 18px;
+    margin-right: 7px;
+    box-sizing: border-box;
+    height: 34px;
+    font-size: 14px;
+    line-height: 34px;
+    padding: 0 8px;
+    text-align: center;
+}
+main .rs .ch5{
+    border: 1px solid #dadce0;
+    border-radius: 18px;
+    margin-right: 7px;
+    box-sizing: border-box;
+    height: 34px;
+    font-size: 14px;
+    line-height: 34px;
+    padding: 0 8px;
+    text-align: center;
+}
+main .rs .ch6{
+    border: 1px solid #dadce0;
+    border-radius: 18px;
+    margin-right: 7px;
+    box-sizing: border-box;
+    height: 34px;
+    font-size: 14px;
+    line-height: 34px;
+    padding: 0 8px;
+    text-align: center;
+}
+.ch1:hover{
+    background: #f8f9fa;
+}
+.ch2:hover{
+    background: #f8f9fa;
+}
+.ch3:hover{
+    background: #f8f9fa;
+}
+.ch4:hover{
+    background: #f8f9fa;
+}
+.ch5:hover{
+    background: #f8f9fa;
+}
+.ch6:hover{
+    background: #f8f9fa;
+}
+main .rs. .chimg{
+    height: 41px;
+    position: absolute;
+    right: 10px;
+    top: 687px;
+}
+
 

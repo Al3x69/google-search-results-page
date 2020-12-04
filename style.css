@@ -250,7 +250,7 @@ main .rs .hh3{
     line-height: 1.3;
     position: absolute;
     left: 34px;
-    top: 632px;
+    top: -15px;
     font-weight: normal;
     cursor: pointer;
 }  
@@ -258,6 +258,12 @@ main .rs .hh3:hover{
     color: #1a0dab;
 }
 main .rs .chestii{
+    position: absolute;
+    margin-top: -7px;
+    width: 654px;
+    height: 312px;
+}
+main .rs .chestiisus{
     display: flex;
     color: #3c4043;
     cursor: pointer;
@@ -348,11 +354,48 @@ main .rs .ch6{
 .ch6:hover{
     background: #f8f9fa;
 }
-main .rs. .chimg{
+main .rs .chimg{
     height: 41px;
     position: absolute;
     right: 10px;
-    top: 687px;
+}
+main .rs .chestimg{
+    position: absolute;
+    left: -11px;
+    top: 93px;
+    height: 157px;
+    width: 690px;
+}
+main .rs .chestijos1{
+    border-top: 1px solid  #dadce0;
+    position: absolute;
+    top: 273px;
+    width: 100%;;   
+}
+main .rs .chestijos2{
+    width: 300px;
+    height: 36px;
+    position: absolute;
+    top: 264px;
+    left: 150px;
+    z-index: 100;
+    border: 1px solid  #dadce0;
+    border-radius: 18px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #FFF;
+    color: #1a0dab;
+    cursor: pointer;
+}
+main .rs .sageata{
+    position: absolute;
+    top: 271px;
+    left: 162px;
+    z-index: 101;
+    height: 22px;
+}
+main .rs .chestijos2:hover{
+    background: #fafafa;
 }
 
 

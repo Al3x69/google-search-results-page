@@ -11,7 +11,7 @@ body{
     display: flex;
     align-items: flex-end;
     background-color: white;
-    z-index: 100;
+    z-index: 10000;
 }
 .header1 .g-logo{
     height: 33px;
@@ -25,7 +25,6 @@ body{
     border: 1px solid rgb(220,220,220);
     border-radius: 50px;
     text-indent: 30px;
-
 }
 .searchbar:hover{
     -moz-box-shadow: 0 0 5px #ccc;
@@ -182,7 +181,7 @@ body{
 main{
     border: 1px solid rgb(220,220,220);
     width: 1280px;
-    height: 2013px;
+    height: 2050px;
     position: absolute;
     left: 0px;
     top: 59px;
@@ -193,9 +192,8 @@ main .results{
 }
 main .rs{
     line-height: 1.3;
-    border: 1px solid rgb(220,220,220);
     width: 652px;
-    height: 1713px;
+    height: 1735px;
     position: absolute;
     left: 178px;
     top: 35px;
@@ -397,5 +395,91 @@ main .rs .sageata{
 main .rs .chestijos2:hover{
     background: #fafafa;
 }
+main .rs .fq{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 979px;
+    border: 1px solid  #dadce0;
+    width: 652px;
+    border-radius: 12px;
 
-
+}
+main .rs .fq .sus{
+    color: #202124;
+    font-size: 20px;
+    line-height: 2.30;
+    padding-left: 16px;
+}
+main .rs .fq .inner{
+    padding-right: 40px;
+    border-top: 1px solid #e5e5e5;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 2.58;
+    padding-left: 16px;
+}
+main .rs .fq .inner img{
+    position: absolute;
+    right: 20px;  
+}
+main .rs .div1{
+    position: relative;
+    top: 594px;
+}
+main .plm{
+    position: absolute;
+    top: 1770px;
+    left: 177px;
+    font-size: 20px;
+}
+main .divstanga{
+    position: absolute;
+    bottom: 109px;
+    left: 177px;
+    display: flex;
+    flex-direction: column;
+    line-height: 27px;
+    font-weight: 700;
+}
+main .divstanga a{
+    text-decoration: none;
+    color: #210dab;
+}
+main .divdreapta{
+    position: absolute;
+    bottom: 109px;
+    left: 481px;
+    display: flex;
+    flex-direction: column;
+    line-height: 27px;
+    font-weight: 700;
+}
+main .divdreapta a{
+    text-decoration: none;
+    color: #210dab;
+}    
+main .google{
+    position: absolute;
+    bottom: 55px;
+    left: 336px;
+}
+main .nr{
+    display: flex;
+    position: absolute;
+    bottom: 32px;
+    left: 374px;
+}
+main .nr .nra{
+    margin-right: 9px;
+    text-decoration: none;
+    color: #4285f4;
+}
+main .nr .nra:hover{
+    text-decoration: underline;
+}
+main .nr .inainte{
+    text-decoration: none;
+    margin-left: 40px;
+    color: #4285f4;
+}
